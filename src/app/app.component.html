@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<form >
+<input type="text" [(ngModel)]="serkan" [ngModelOptions]="{standalone: true}">
+<button (click)="doClick()" type="submit">Senden</button> 
+</form>
+<p>{{serkan}}</p>
